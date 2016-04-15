@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		287CFA98FDC4DA237D5C975C /* Pods_Code_Cracker_Solver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F49B3531F3AE36B650426E6 /* Pods_Code_Cracker_Solver.framework */; };
 		E5B419C11CB9E853000EB677 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B419C01CB9E853000EB677 /* AppDelegate.swift */; };
-		E5B419C31CB9E853000EB677 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B419C21CB9E853000EB677 /* ViewController.swift */; };
 		E5B419C61CB9E853000EB677 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5B419C41CB9E853000EB677 /* Main.storyboard */; };
 		E5B419C81CB9E853000EB677 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5B419C71CB9E853000EB677 /* Assets.xcassets */; };
 		E5B419CB1CB9E853000EB677 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5B419C91CB9E853000EB677 /* LaunchScreen.storyboard */; };
 		E5B419D61CB9E853000EB677 /* Code_Cracker_SolverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B419D51CB9E853000EB677 /* Code_Cracker_SolverTests.swift */; };
 		E5B419E11CB9E853000EB677 /* Code_Cracker_SolverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B419E01CB9E853000EB677 /* Code_Cracker_SolverUITests.swift */; };
+		E5B894161CBB9097005970E4 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B894151CBB9097005970E4 /* SearchViewController.swift */; };
+		E5B894181CBB90A6005970E4 /* ResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B894171CBB90A6005970E4 /* ResultsTableViewController.swift */; };
+		E5B8941A1CBB91EB005970E4 /* SearchViewController+UITextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B894191CBB91EB005970E4 /* SearchViewController+UITextFieldDelegate.swift */; };
+		E5B8941C1CBB95B0005970E4 /* ResultsTableViewController+UITableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B8941B1CBB95B0005970E4 /* ResultsTableViewController+UITableViewDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C7E2A15DA8272C5B081C1EA /* Pods-Code Cracker Solver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Code Cracker Solver.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Code Cracker Solver/Pods-Code Cracker Solver.debug.xcconfig"; sourceTree = "<group>"; };
+		8F49B3531F3AE36B650426E6 /* Pods_Code_Cracker_Solver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Code_Cracker_Solver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9294D54DC4302AD24A9D309E /* Pods-Code Cracker Solver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Code Cracker Solver.release.xcconfig"; path = "Pods/Target Support Files/Pods-Code Cracker Solver/Pods-Code Cracker Solver.release.xcconfig"; sourceTree = "<group>"; };
 		E5B419BD1CB9E853000EB677 /* Code Cracker Solver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Code Cracker Solver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5B419C01CB9E853000EB677 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E5B419C21CB9E853000EB677 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E5B419C51CB9E853000EB677 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E5B419C71CB9E853000EB677 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5B419CA1CB9E853000EB677 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +53,11 @@
 		E5B419DC1CB9E853000EB677 /* Code Cracker SolverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Code Cracker SolverUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5B419E01CB9E853000EB677 /* Code_Cracker_SolverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code_Cracker_SolverUITests.swift; sourceTree = "<group>"; };
 		E5B419E21CB9E853000EB677 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5B894131CBA15AA005970E4 /* Code Cracker Solver-Bridging-Header.h.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Code Cracker Solver-Bridging-Header.h.h"; sourceTree = "<group>"; };
+		E5B894151CBB9097005970E4 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		E5B894171CBB90A6005970E4 /* ResultsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsTableViewController.swift; sourceTree = "<group>"; };
+		E5B894191CBB91EB005970E4 /* SearchViewController+UITextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SearchViewController+UITextFieldDelegate.swift"; sourceTree = "<group>"; };
+		E5B8941B1CBB95B0005970E4 /* ResultsTableViewController+UITableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ResultsTableViewController+UITableViewDataSource.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				287CFA98FDC4DA237D5C975C /* Pods_Code_Cracker_Solver.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +93,8 @@
 				E5B419D41CB9E853000EB677 /* Code Cracker SolverTests */,
 				E5B419DF1CB9E853000EB677 /* Code Cracker SolverUITests */,
 				E5B419BE1CB9E853000EB677 /* Products */,
+				EC5A0DE22B7EACAAB5F7F866 /* Pods */,
+				FC062336F03F889A7DA4504D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +111,13 @@
 		E5B419BF1CB9E853000EB677 /* Code Cracker Solver */ = {
 			isa = PBXGroup;
 			children = (
+				E5B894141CBB9070005970E4 /* Controllers */,
 				E5B419C01CB9E853000EB677 /* AppDelegate.swift */,
-				E5B419C21CB9E853000EB677 /* ViewController.swift */,
 				E5B419C41CB9E853000EB677 /* Main.storyboard */,
 				E5B419C71CB9E853000EB677 /* Assets.xcassets */,
 				E5B419C91CB9E853000EB677 /* LaunchScreen.storyboard */,
 				E5B419CC1CB9E853000EB677 /* Info.plist */,
+				E5B894131CBA15AA005970E4 /* Code Cracker Solver-Bridging-Header.h.h */,
 			);
 			path = "Code Cracker Solver";
 			sourceTree = "<group>";
@@ -125,6 +140,34 @@
 			path = "Code Cracker SolverUITests";
 			sourceTree = "<group>";
 		};
+		E5B894141CBB9070005970E4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E5B894151CBB9097005970E4 /* SearchViewController.swift */,
+				E5B894191CBB91EB005970E4 /* SearchViewController+UITextFieldDelegate.swift */,
+				E5B894171CBB90A6005970E4 /* ResultsTableViewController.swift */,
+				E5B8941B1CBB95B0005970E4 /* ResultsTableViewController+UITableViewDataSource.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		EC5A0DE22B7EACAAB5F7F866 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C7E2A15DA8272C5B081C1EA /* Pods-Code Cracker Solver.debug.xcconfig */,
+				9294D54DC4302AD24A9D309E /* Pods-Code Cracker Solver.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FC062336F03F889A7DA4504D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F49B3531F3AE36B650426E6 /* Pods_Code_Cracker_Solver.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E5B419E51CB9E853000EB677 /* Build configuration list for PBXNativeTarget "Code Cracker Solver" */;
 			buildPhases = (
+				3FA87230F6A6E65C9DDA9EF3 /* Check Pods Manifest.lock */,
 				E5B419B91CB9E853000EB677 /* Sources */,
 				E5B419BA1CB9E853000EB677 /* Frameworks */,
 				E5B419BB1CB9E853000EB677 /* Resources */,
+				A2A9E947F32F94F1DA98F9B0 /* Embed Pods Frameworks */,
+				8976B35EA96CA9809F98E3EA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +239,7 @@
 				TargetAttributes = {
 					E5B419BC1CB9E853000EB677 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = EF3Z2ZZH58;
 					};
 					E5B419D01CB9E853000EB677 = {
 						CreatedOnToolsVersion = 7.3;
@@ -251,13 +298,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3FA87230F6A6E65C9DDA9EF3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8976B35EA96CA9809F98E3EA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Code Cracker Solver/Pods-Code Cracker Solver-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2A9E947F32F94F1DA98F9B0 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Code Cracker Solver/Pods-Code Cracker Solver-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E5B419B91CB9E853000EB677 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5B419C31CB9E853000EB677 /* ViewController.swift in Sources */,
+				E5B8941C1CBB95B0005970E4 /* ResultsTableViewController+UITableViewDataSource.swift in Sources */,
+				E5B894181CBB90A6005970E4 /* ResultsTableViewController.swift in Sources */,
+				E5B894161CBB9097005970E4 /* SearchViewController.swift in Sources */,
 				E5B419C11CB9E853000EB677 /* AppDelegate.swift in Sources */,
+				E5B8941A1CBB91EB005970E4 /* SearchViewController+UITextFieldDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,22 +497,26 @@
 		};
 		E5B419E61CB9E853000EB677 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C7E2A15DA8272C5B081C1EA /* Pods-Code Cracker Solver.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Code Cracker Solver/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rajanfernandez.Code-Cracker-Solver";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rajanfernandez.CodeCrackerSolver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		E5B419E71CB9E853000EB677 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9294D54DC4302AD24A9D309E /* Pods-Code Cracker Solver.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Code Cracker Solver/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rajanfernandez.Code-Cracker-Solver";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rajanfernandez.CodeCrackerSolver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -484,6 +586,7 @@
 				E5B419E71CB9E853000EB677 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E5B419E81CB9E853000EB677 /* Build configuration list for PBXNativeTarget "Code Cracker SolverTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +595,7 @@
 				E5B419EA1CB9E853000EB677 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E5B419EB1CB9E853000EB677 /* Build configuration list for PBXNativeTarget "Code Cracker SolverUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +604,7 @@
 				E5B419ED1CB9E853000EB677 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
