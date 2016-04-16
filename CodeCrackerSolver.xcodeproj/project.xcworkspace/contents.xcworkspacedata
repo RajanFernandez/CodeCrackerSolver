@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Code Cracker Solver.xcodeproj">
+      location = "self:/Users/rajan/Projects/iOS/Code Cracker Solver/CodeCrackerSolver.xcodeproj">
    </FileRef>
 </Workspace>

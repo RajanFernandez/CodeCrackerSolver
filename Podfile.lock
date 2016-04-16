@@ -1,0 +1,17 @@
+PODS:
+  - CCSolver (0.0.3)
+  - MBProgressHUD (0.9.2)
+
+DEPENDENCIES:
+  - CCSolver (from `~/Projects/iOS/CCSolver`)
+  - MBProgressHUD
+
+EXTERNAL SOURCES:
+  CCSolver:
+    :path: ~/Projects/iOS/CCSolver
+
+SPEC CHECKSUMS:
+  CCSolver: 80f1624350976fb272bebdc8919bc68adcefb5ad
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+
+COCOAPODS: 0.39.0

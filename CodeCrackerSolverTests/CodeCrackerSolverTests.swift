@@ -1,15 +1,14 @@
 //
-//  Code_Cracker_SolverTests.swift
-//  Code Cracker SolverTests
+//  CodeCrackerSolverTests.swift
+//  CodeCrackerSolverTests
 //
-//  Created by Rajan Fernandez on 10/04/16.
+//  Created by Rajan Fernandez on 17/04/16.
 //  Copyright © 2016 Rajan Fernandez. All rights reserved.
 //
 
 import XCTest
-@testable import Code_Cracker_Solver
 
-class Code_Cracker_SolverTests: XCTestCase {
+class CodeCrackerSolverTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
