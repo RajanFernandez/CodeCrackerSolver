@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D7BC2D788B2472612653B4B /* Pods_CodeCrackerSolver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A1879F3517375A8BFA7638F /* Pods_CodeCrackerSolver.framework */; };
 		E510BE141CC2EA07007820CC /* CodeCrackerSolverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E510BE131CC2EA07007820CC /* CodeCrackerSolverTests.swift */; };
 		E510BE221CC2EA28007820CC /* CodeCrackerSolverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E510BE211CC2EA28007820CC /* CodeCrackerSolverUITests.swift */; };
 		E5B419C11CB9E853000EB677 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B419C01CB9E853000EB677 /* AppDelegate.swift */; };
@@ -39,6 +40,7 @@
 /* Begin PBXFileReference section */
 		0B639E53B1437920B3D03CA5 /* Pods-CodeCrackerSolver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeCrackerSolver.release.xcconfig"; path = "Pods/Target Support Files/Pods-CodeCrackerSolver/Pods-CodeCrackerSolver.release.xcconfig"; sourceTree = "<group>"; };
 		57A2ACEB13DB2581B45BA3F8 /* Pods-CodeCrackerSolver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeCrackerSolver.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CodeCrackerSolver/Pods-CodeCrackerSolver.debug.xcconfig"; sourceTree = "<group>"; };
+		5A1879F3517375A8BFA7638F /* Pods_CodeCrackerSolver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodeCrackerSolver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E510BE111CC2EA07007820CC /* CodeCrackerSolverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeCrackerSolverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E510BE131CC2EA07007820CC /* CodeCrackerSolverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeCrackerSolverTests.swift; sourceTree = "<group>"; };
 		E510BE151CC2EA07007820CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,7 +53,6 @@
 		E5B419C71CB9E853000EB677 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5B419CA1CB9E853000EB677 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5B419CC1CB9E853000EB677 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E5B894131CBA15AA005970E4 /* CodeCrackerSolver-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CodeCrackerSolver-Bridging-Header.h"; sourceTree = "<group>"; };
 		E5B894151CBB9097005970E4 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		E5B894171CBB90A6005970E4 /* ResultsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsTableViewController.swift; sourceTree = "<group>"; };
 		E5B894191CBB91EB005970E4 /* SearchViewController+UITextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SearchViewController+UITextFieldDelegate.swift"; sourceTree = "<group>"; };
@@ -77,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D7BC2D788B2472612653B4B /* Pods_CodeCrackerSolver.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,7 +134,6 @@
 				E5B419C71CB9E853000EB677 /* Assets.xcassets */,
 				E5B419C91CB9E853000EB677 /* LaunchScreen.storyboard */,
 				E5B419CC1CB9E853000EB677 /* Info.plist */,
-				E5B894131CBA15AA005970E4 /* CodeCrackerSolver-Bridging-Header.h */,
 			);
 			path = CodeCrackerSolver;
 			sourceTree = "<group>";
@@ -160,6 +161,7 @@
 		FC062336F03F889A7DA4504D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5A1879F3517375A8BFA7638F /* Pods_CodeCrackerSolver.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -493,6 +495,8 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -532,6 +536,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -577,6 +583,7 @@
 				E510BE1A1CC2EA07007820CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E510BE261CC2EA29007820CC /* Build configuration list for PBXNativeTarget "CodeCrackerSolverUITests" */ = {
 			isa = XCConfigurationList;
@@ -585,6 +592,7 @@
 				E510BE281CC2EA29007820CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E5B419B81CB9E853000EB677 /* Build configuration list for PBXProject "CodeCrackerSolver" */ = {
 			isa = XCConfigurationList;
