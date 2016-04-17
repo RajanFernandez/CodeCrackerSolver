@@ -5,7 +5,7 @@ use_frameworks!
 
 target 'CodeCrackerSolver' do
   pod 'MBProgressHUD'
-  pod 'CCSolver', :path => '~/Projects/iOS/CCSolver'
+  pod 'CCSolver'
 end
 
 
