@@ -103,6 +103,15 @@
 			path = CodeCrackerSolverUITests;
 			sourceTree = "<group>";
 		};
+		E58C1B911CC61C6F00F3CDA1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E5B419C41CB9E853000EB677 /* Main.storyboard */,
+				E5B419C91CB9E853000EB677 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		E5B419B41CB9E853000EB677 = {
 			isa = PBXGroup;
 			children = (
@@ -128,11 +137,10 @@
 		E5B419BF1CB9E853000EB677 /* CodeCrackerSolver */ = {
 			isa = PBXGroup;
 			children = (
+				E58C1B911CC61C6F00F3CDA1 /* View */,
 				E5B894141CBB9070005970E4 /* Controllers */,
 				E5B419C01CB9E853000EB677 /* AppDelegate.swift */,
-				E5B419C41CB9E853000EB677 /* Main.storyboard */,
 				E5B419C71CB9E853000EB677 /* Assets.xcassets */,
-				E5B419C91CB9E853000EB677 /* LaunchScreen.storyboard */,
 				E5B419CC1CB9E853000EB677 /* Info.plist */,
 			);
 			path = CodeCrackerSolver;

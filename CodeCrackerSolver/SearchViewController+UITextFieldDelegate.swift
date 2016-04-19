@@ -20,16 +20,18 @@ extension SearchViewController : UITextFieldDelegate {
             
             MBProgressHUD.showHUDAddedTo(self.view, animated: true)
             
-            dispatch_async(dispatch_get_main_queue(), { [weak self] in
+            dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), { [weak self] in
                 self?.searchForPartialWord(input, withCallback: { (results) in
-                    
-                    MBProgressHUD.hideHUDForView(self?.view, animated: true)
-                    
-                    if let results = results where results.count > 0 {
-                        self?.performSegueWithIdentifier("ToResultsView", sender: results)
-                    } else {
-                        self?.displayNoResultsAlert()
-                    }
+                    dispatch_async(dispatch_get_main_queue(), {
+                        
+                        MBProgressHUD.hideHUDForView(self?.view, animated: true)
+                        
+                        if let results = results where results.count > 0 {
+                            self?.performSegueWithIdentifier("ToResultsView", sender: results)
+                        } else {
+                            self?.displayNoResultsAlert()
+                        }
+                    })
                 })
             })
         }
