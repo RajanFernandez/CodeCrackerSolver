@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E7B38CFA1ED9E99FBF26D2C9AC57F342835B205C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E7B38CFA1ED9E99FBF26D2C9AC57F342835B205C" : 0,
+    "0FFEDD1082C0274878BA6A572F6F7069F477CB41" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B6C16178-E18B-4504-A5BE-A3DC8CA8DBAD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E7B38CFA1ED9E99FBF26D2C9AC57F342835B205C" : "CodeCrackerSolver\/",
+    "0FFEDD1082C0274878BA6A572F6F7069F477CB41" : "CCSolver\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CodeCrackerSolver",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CodeCrackerSolver.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/RajanFernandez\/CCSolver.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0FFEDD1082C0274878BA6A572F6F7069F477CB41"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/RajanFernandez\/CodeCrackerSolver.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E7B38CFA1ED9E99FBF26D2C9AC57F342835B205C"
+    }
+  ]
+}

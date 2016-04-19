@@ -1,5 +1,5 @@
 PODS:
-  - CCSolver (0.0.3)
+  - CCSolver (0.0.4)
   - MBProgressHUD (0.9.2)
 
 DEPENDENCIES:
@@ -7,7 +7,7 @@ DEPENDENCIES:
   - MBProgressHUD
 
 SPEC CHECKSUMS:
-  CCSolver: 73925f0b5c7292d014a8407d3c38212db5ff60ee
+  CCSolver: 6bcf7947ae38a4cb7f548e94208b51c1ef1e610c
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
 
 COCOAPODS: 0.39.0
