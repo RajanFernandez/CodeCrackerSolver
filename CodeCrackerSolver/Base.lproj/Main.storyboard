@@ -17,13 +17,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type your word here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VUg-Hg-KuM">
-                                <rect key="frame" x="20" y="262" width="560" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type your word here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VUg-Hg-KuM">
+                                <rect key="frame" x="20" y="72" width="560" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="search" enablesReturnKeyAutomatically="YES"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BOe-2T-f2M">
-                                <rect key="frame" x="20" y="96" width="560" height="124"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BOe-2T-f2M">
+                                <rect key="frame" x="20" y="118" width="560" height="122"/>
                                 <string key="text">Enter the word you wish to search for, replacing unknown letters with punctuation characters. Use the same punctuation character for letters you know are the same.   For example: Searching for "le**on" would return the word "lesson" as a result.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -34,11 +34,10 @@
                         <constraints>
                             <constraint firstItem="BOe-2T-f2M" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="D2m-12-gT5"/>
                             <constraint firstItem="BOe-2T-f2M" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Ggz-el-LMx"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" relation="greaterThanOrEqual" secondItem="VUg-Hg-KuM" secondAttribute="bottom" constant="50" id="OzY-0A-iuf"/>
+                            <constraint firstItem="VUg-Hg-KuM" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="OSx-Bm-Xa2"/>
                             <constraint firstItem="VUg-Hg-KuM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="VUw-Ld-jbS"/>
                             <constraint firstItem="VUg-Hg-KuM" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="ez5-kz-wNg"/>
-                            <constraint firstItem="BOe-2T-f2M" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="fkF-zq-eqN"/>
-                            <constraint firstItem="VUg-Hg-KuM" firstAttribute="top" secondItem="BOe-2T-f2M" secondAttribute="bottom" constant="50" id="jAN-nH-bu1"/>
+                            <constraint firstItem="BOe-2T-f2M" firstAttribute="top" secondItem="VUg-Hg-KuM" secondAttribute="bottom" constant="16" id="vsW-8y-G6y"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="7ac-El-bgy"/>

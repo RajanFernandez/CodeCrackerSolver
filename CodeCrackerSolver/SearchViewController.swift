@@ -100,7 +100,11 @@ class SearchViewController: UIViewController {
      */
     func displayNoResultsAlert() {
         let alert = UIAlertController(title: "No Results", message: nil, preferredStyle: .Alert)
-        let action = UIAlertAction(title: "Dismiss", style: .Default, handler: nil)
+        let action = UIAlertAction(title: "Dismiss", style: .Default) { (action) in
+            dispatch_async(dispatch_get_main_queue(), { 
+                self.inputTextField.becomeFirstResponder()
+            })
+        }
         alert.addAction(action)
         self.presentViewController(alert, animated: true, completion: nil)
     }
