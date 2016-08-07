@@ -36,6 +36,13 @@ class SearchViewController: UIViewController {
     // MARK: Utilities
     
     /**
+     Dismisses the keyboard when the user taps the main view.
+     */
+    @IBAction func didTapMainView(sender: UITapGestureRecognizer) {
+        view.endEditing(true)
+    }
+    
+    /**
      * Searchs the dictionary for matches to an incomplete word. Unknown letters should be replaced by punctuation marks in the input string.
      */
     func searchForPartialWord(word: String, withCallback callback: (results: [String]?) -> ()) {

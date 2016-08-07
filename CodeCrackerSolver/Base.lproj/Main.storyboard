@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ubM-Yk-ngW">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ubM-Yk-ngW">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -39,6 +39,9 @@
                             <constraint firstItem="VUg-Hg-KuM" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="ez5-kz-wNg"/>
                             <constraint firstItem="BOe-2T-f2M" firstAttribute="top" secondItem="VUg-Hg-KuM" secondAttribute="bottom" constant="16" id="vsW-8y-G6y"/>
                         </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="Y7d-1x-hVm" appends="YES" id="4Jg-qP-bGT"/>
+                        </connections>
                     </view>
                     <navigationItem key="navigationItem" id="7ac-El-bgy"/>
                     <connections>
@@ -47,6 +50,12 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Y7d-1x-hVm">
+                    <connections>
+                        <action selector="didTapMainView:" destination="BYZ-38-t0r" id="GYK-57-hfp"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="7WB-6L-Ftx"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="982" y="66"/>
         </scene>

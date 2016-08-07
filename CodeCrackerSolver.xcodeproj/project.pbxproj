@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D7BC2D788B2472612653B4B /* Pods_CodeCrackerSolver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A1879F3517375A8BFA7638F /* Pods_CodeCrackerSolver.framework */; };
+		A27DD560F93D3EE956CE6F55 /* Pods_CodeCrackerSolver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8083C479A25418AE3240F095 /* Pods_CodeCrackerSolver.framework */; };
 		E510BE141CC2EA07007820CC /* CodeCrackerSolverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E510BE131CC2EA07007820CC /* CodeCrackerSolverTests.swift */; };
 		E510BE221CC2EA28007820CC /* CodeCrackerSolverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E510BE211CC2EA28007820CC /* CodeCrackerSolverUITests.swift */; };
 		E5B419C11CB9E853000EB677 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B419C01CB9E853000EB677 /* AppDelegate.swift */; };
@@ -38,9 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B639E53B1437920B3D03CA5 /* Pods-CodeCrackerSolver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeCrackerSolver.release.xcconfig"; path = "Pods/Target Support Files/Pods-CodeCrackerSolver/Pods-CodeCrackerSolver.release.xcconfig"; sourceTree = "<group>"; };
-		57A2ACEB13DB2581B45BA3F8 /* Pods-CodeCrackerSolver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeCrackerSolver.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CodeCrackerSolver/Pods-CodeCrackerSolver.debug.xcconfig"; sourceTree = "<group>"; };
-		5A1879F3517375A8BFA7638F /* Pods_CodeCrackerSolver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodeCrackerSolver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B0937AA30648B137AD8DE08 /* Pods-CodeCrackerSolver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeCrackerSolver.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CodeCrackerSolver/Pods-CodeCrackerSolver.debug.xcconfig"; sourceTree = "<group>"; };
+		49051093100FD8C9AD4EB2D0 /* Pods-CodeCrackerSolver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeCrackerSolver.release.xcconfig"; path = "Pods/Target Support Files/Pods-CodeCrackerSolver/Pods-CodeCrackerSolver.release.xcconfig"; sourceTree = "<group>"; };
+		8083C479A25418AE3240F095 /* Pods_CodeCrackerSolver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodeCrackerSolver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E510BE111CC2EA07007820CC /* CodeCrackerSolverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeCrackerSolverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E510BE131CC2EA07007820CC /* CodeCrackerSolverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeCrackerSolverTests.swift; sourceTree = "<group>"; };
 		E510BE151CC2EA07007820CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,13 +78,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D7BC2D788B2472612653B4B /* Pods_CodeCrackerSolver.framework in Frameworks */,
+				A27DD560F93D3EE956CE6F55 /* Pods_CodeCrackerSolver.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B8DB242246A530B0914784CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B0937AA30648B137AD8DE08 /* Pods-CodeCrackerSolver.debug.xcconfig */,
+				49051093100FD8C9AD4EB2D0 /* Pods-CodeCrackerSolver.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D284987DA01A0EBB6546C475 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8083C479A25418AE3240F095 /* Pods_CodeCrackerSolver.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E510BE121CC2EA07007820CC /* CodeCrackerSolverTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,8 +136,8 @@
 				E510BE121CC2EA07007820CC /* CodeCrackerSolverTests */,
 				E510BE201CC2EA28007820CC /* CodeCrackerSolverUITests */,
 				E5B419BE1CB9E853000EB677 /* Products */,
-				EC5A0DE22B7EACAAB5F7F866 /* Pods */,
-				FC062336F03F889A7DA4504D /* Frameworks */,
+				B8DB242246A530B0914784CC /* Pods */,
+				D284987DA01A0EBB6546C475 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -155,23 +172,6 @@
 				E5B8941B1CBB95B0005970E4 /* ResultsTableViewController+UITableViewDataSource.swift */,
 			);
 			name = Controllers;
-			sourceTree = "<group>";
-		};
-		EC5A0DE22B7EACAAB5F7F866 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				57A2ACEB13DB2581B45BA3F8 /* Pods-CodeCrackerSolver.debug.xcconfig */,
-				0B639E53B1437920B3D03CA5 /* Pods-CodeCrackerSolver.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		FC062336F03F889A7DA4504D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5A1879F3517375A8BFA7638F /* Pods_CodeCrackerSolver.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,12 +217,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E5B419E51CB9E853000EB677 /* Build configuration list for PBXNativeTarget "CodeCrackerSolver" */;
 			buildPhases = (
-				3FA87230F6A6E65C9DDA9EF3 /* Check Pods Manifest.lock */,
+				20FAE0296455CF24FDF52352 /* [CP] Check Pods Manifest.lock */,
 				E5B419B91CB9E853000EB677 /* Sources */,
 				E5B419BA1CB9E853000EB677 /* Frameworks */,
 				E5B419BB1CB9E853000EB677 /* Resources */,
-				A2A9E947F32F94F1DA98F9B0 /* Embed Pods Frameworks */,
-				8976B35EA96CA9809F98E3EA /* Copy Pods Resources */,
+				394D13E343E5D52879964327 /* [CP] Embed Pods Frameworks */,
+				EC643A62B5B39193ACF0C2CF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -305,14 +305,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3FA87230F6A6E65C9DDA9EF3 /* Check Pods Manifest.lock */ = {
+		20FAE0296455CF24FDF52352 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,34 +320,34 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		8976B35EA96CA9809F98E3EA /* Copy Pods Resources */ = {
+		394D13E343E5D52879964327 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CodeCrackerSolver/Pods-CodeCrackerSolver-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A2A9E947F32F94F1DA98F9B0 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CodeCrackerSolver/Pods-CodeCrackerSolver-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC643A62B5B39193ACF0C2CF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CodeCrackerSolver/Pods-CodeCrackerSolver-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -553,7 +553,7 @@
 		};
 		E5B419E61CB9E853000EB677 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 57A2ACEB13DB2581B45BA3F8 /* Pods-CodeCrackerSolver.debug.xcconfig */;
+			baseConfigurationReference = 1B0937AA30648B137AD8DE08 /* Pods-CodeCrackerSolver.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -562,13 +562,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rajanfernandez.CodeCrackerSolver;
 				PRODUCT_NAME = CodeCrackerSolver;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		E5B419E71CB9E853000EB677 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B639E53B1437920B3D03CA5 /* Pods-CodeCrackerSolver.release.xcconfig */;
+			baseConfigurationReference = 49051093100FD8C9AD4EB2D0 /* Pods-CodeCrackerSolver.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -577,7 +577,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rajanfernandez.CodeCrackerSolver;
 				PRODUCT_NAME = CodeCrackerSolver;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
