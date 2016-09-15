@@ -10,18 +10,18 @@ import UIKit
 
 extension ResultsTableViewController {
     
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    override func numberOfSections(in tableView: UITableView) -> Int {
         var sections = 0
-        if let exactMatches = exactMatches where exactMatches.count > 0 {
+        if let exactMatches = exactMatches , exactMatches.count > 0 {
             sections += 1
         }
-        if let partialMatches = partialMatches where partialMatches.count > 0 {
+        if let partialMatches = partialMatches , partialMatches.count > 0 {
             sections += 1
         }
         return sections
     }
     
-    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         switch section {
         case 0:
             return exactMatches?.count ?? 0
@@ -32,26 +32,26 @@ extension ResultsTableViewController {
         }
     }
     
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("ResultCell", forIndexPath: indexPath)
-        switch indexPath.section {
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "ResultCell", for: indexPath)
+        switch (indexPath as NSIndexPath).section {
         case 0:
             guard let exactMatches = exactMatches else {
                 break
             }
-            cell.textLabel?.text = exactMatches[indexPath.row]
+            cell.textLabel?.text = exactMatches[(indexPath as NSIndexPath).row]
         case 1:
             guard let partialMatches = partialMatches else {
                 break
             }
-            cell.textLabel?.text = partialMatches[indexPath.row]
+            cell.textLabel?.text = partialMatches[(indexPath as NSIndexPath).row]
         default:
             break
         }
         return cell
     }
     
-    override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         switch section {
         case 0:
             return "Exact Matches"

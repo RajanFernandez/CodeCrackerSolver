@@ -245,15 +245,18 @@
 				TargetAttributes = {
 					E510BE101CC2EA07007820CC = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
 						TestTargetID = E5B419BC1CB9E853000EB677;
 					};
 					E510BE1E1CC2EA28007820CC = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
 						TestTargetID = E5B419BC1CB9E853000EB677;
 					};
 					E5B419BC1CB9E853000EB677 = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = EF3Z2ZZH58;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -424,6 +427,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rajanfernandez.CodeCrackerSolverTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodeCrackerSolver.app/CodeCrackerSolver";
 			};
 			name = Debug;
@@ -436,6 +440,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rajanfernandez.CodeCrackerSolverTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodeCrackerSolver.app/CodeCrackerSolver";
 			};
 			name = Release;
@@ -447,6 +452,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rajanfernandez.CodeCrackerSolverUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = CodeCrackerSolver;
 			};
 			name = Debug;
@@ -458,6 +464,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rajanfernandez.CodeCrackerSolverUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = CodeCrackerSolver;
 			};
 			name = Release;
@@ -562,6 +569,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rajanfernandez.CodeCrackerSolver;
 				PRODUCT_NAME = CodeCrackerSolver;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -577,6 +585,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rajanfernandez.CodeCrackerSolver;
 				PRODUCT_NAME = CodeCrackerSolver;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
