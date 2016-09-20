@@ -21,7 +21,7 @@ extension SearchViewController : UITextFieldDelegate {
             inputTextField.resignFirstResponder()
             MBProgressHUD.showAdded(to: self.view, animated: true)
             
-            DispatchQueue.global(priority: DispatchQueue.GlobalQueuePriority.default).async(execute: { [weak self] in
+            DispatchQueue.global(qos: DispatchQoS.QoSClass.default).async(execute: { [weak self] in
                 self?.searchForPartialWord(input, withCallback: { (results) in
                     DispatchQueue.main.async(execute: {
                         
